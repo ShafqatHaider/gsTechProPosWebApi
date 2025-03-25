@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 public class Restaurant{
    
@@ -11,7 +12,12 @@ public class Restaurant{
 
     [Required]
     public int OwnerId { get; set; }
-    public User Owner { get; set; }
-
-    public ICollection<Branch> Branches { get; set; }    public string logoImgPath {get;set;}
+    public string logoImgPath {get;set;}
+    
+    public string address {get;set;}
+    public string contactNo {get;set;}
+    [JsonIgnore] 
+    public ICollection<Branch> Branches { get; set; }  = new List<Branch>();   
+    [JsonIgnore] 
+    public User? Owner { get; set; }
 }

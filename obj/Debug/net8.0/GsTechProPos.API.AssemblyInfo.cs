@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GsTechProPos.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ad7c1c0ed3d4e4c989728c6965954cbb6550ec4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89f1393eb8c31a89725c43b4cf7f82884c5c199e")]
 [assembly: System.Reflection.AssemblyProductAttribute("GsTechProPos.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GsTechProPos.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 public class Branch
 {
@@ -7,6 +8,7 @@ public class Branch
 
     [Required]
     public int RestaurantId { get; set; }
+    [JsonIgnore] 
     public Restaurant Restaurant { get; set; }
 
     [Required]
@@ -18,5 +20,6 @@ public class Branch
     public string Location { get; set; }
 
     public int? ManagerId { get; set; }
+    [JsonIgnore] 
     public User Manager { get; set; }
 }
